@@ -1,0 +1,16 @@
+@import "addons.scss";
+@import "vaadintest.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in vaadintest.scss */
+.vaadintest {
+  @include addons;
+  @include vaadintest;
+}
+
+.vaadintest .loginPanel{
+	margin-top: 15%;
+	margin-left: 30%;
+	background-color: #599bcc;
+	border-radius: 20px;
+}
